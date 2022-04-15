@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Festive&family=Jost:wght@700&family=Quintessential&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 191, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    width: 350px;
+    background: #ffffff;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.Avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 191, 255);
+}
+
+.Avatar img {
+    max-width: 100%;
+}
+
+.infor .name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.infor span {
+    display: block;
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.socials {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list .item {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(0, 191, 255);
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.list .item:hover {
+    background: rgb(0, 64, 255);
+    color: #ffffff;
+    box-shadow: rgb(140, 115, 115) 0px 0px 5px;
+}
